@@ -71,7 +71,7 @@ html {
     content: '';
     position: absolute;
     left: -14rem;
-    bottom: -28rem;
+    bottom: -18rem;
     width: 28.2rem;
     height: 28.2rem;
     background: rgba(255, 225, 168, 0.7);
@@ -85,14 +85,14 @@ html {
 }
 
 .block__i {
-    width: 55%;
+    width: 57%;
     padding: 15rem 0;
 }
 
 .block__title {
     max-width: 68rem;
     margin-bottom: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4.8rem;
     line-height: 1.1875;
     color: #242424;
@@ -112,7 +112,7 @@ html {
 .block__description span::after {
     position: absolute;
     content: '';
-    width: 31.5rem;
+    width: 33rem;
     height: 2rem;
     background: #C2FDFF;
     border-radius: 3px;
@@ -146,7 +146,7 @@ html {
 
 .block__img {
     border: 1px solid gray;
-    width: 45%;
+    width: 43%;
 }
 
 .block__img img {
@@ -165,7 +165,7 @@ html {
     bottom: -45rem;
     width: 41.3rem;
     height: 41.3rem;
-    background: rgba(207, 228, 255, 0.7);
+    background: rgba(207, 228, 255, 0.5);
     filter: blur(100px);
     border-radius: 50rem;
 }
@@ -173,7 +173,7 @@ html {
 .me {
     text-align: center;
     margin-bottom: 4rem;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4.8rem;
     line-height: 1.875;
     color: #242424;
@@ -240,7 +240,7 @@ html {
     position: absolute;
     content: '3';
     left: 0;
-    top: -1rem;
+    top: 0rem;
     bottom: 0;
     width: 6rem;
     height: 6rem;
@@ -295,7 +295,7 @@ html {
     bottom: -20rem;
     width: 41.3rem;
     height: 41.3rem;
-    background: rgba(207, 228, 255, 0.7);
+    background: rgba(207, 228, 255, 0.5);
     filter: blur(100px);
     border-radius: 50rem;
 }
@@ -315,7 +315,7 @@ html {
 .skills {
     text-align: center;
     margin-bottom: 7rem;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4.8rem;
     line-height: 1.1875;
     color: #242424;
@@ -358,7 +358,7 @@ html {
     bottom: -13rem;
     width: 49rem;
     height: 49rem;
-    background: rgba(255, 225, 168, 0.7);
+    background: rgba(255, 225, 168, 0.5);
     filter: blur(100px);
     border-radius: 50rem;
 }
@@ -366,7 +366,7 @@ html {
 .works {
     text-align: center;
     margin-bottom: 6rem;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4.8rem;
     line-height: 1.1875;
     color: #242424;
@@ -435,7 +435,7 @@ html {
     top: 5rem;
     width: 41.3rem;
     height: 41.3rem;
-    background: rgba(207, 228, 255, 0.7);
+    background: rgba(207, 228, 255, 0.5);
     filter: blur(100px);
     border-radius: 50rem;
 }
@@ -447,7 +447,7 @@ html {
     top: -15rem;
     width: 41.3rem;
     height: 41.3rem;
-    background: rgba(207, 228, 255, 0.7);
+    background: rgba(207, 228, 255, 0.5);
     filter: blur(100px);
     border-radius: 50rem;
 }
@@ -473,7 +473,7 @@ html {
 
 .contacts__h {
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4.8rem;
     line-height: 1.1875;
     color: #242424;
@@ -481,7 +481,7 @@ html {
 }
 
 .contacts__title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2.4rem;
     line-height: 1.1666;
     color: #242424;
