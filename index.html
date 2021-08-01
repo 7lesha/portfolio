@@ -4,102 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио, Кашникова</title>
+    <title>Портфолио Кашников</title>
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <span class="logo">HTML coder - portfolio</span>
+            <ul class="ul">
+                <li class="ul__li"><a class="ul__a" href="#C1">Обо мне</a></li> 
+                <li class="ul__li"><a class="ul__a" href="#C2">Навыки</a></li> 
+                <li class="ul__li"><a class="ul__a" href="#C3">Портфолио</a></li> 
+                <li class="ul__li"><a class="ul__a" href="#C4">Контакты</a></li> 
+            </ul>
         </div>
     </header>
     <main class="main">
-        <section class="block">
+        <section class="section-block">
             <div class="container">
-                <h1 class="block__title">Обо мне</h1>
-                <p>Приветствую Вас на своем сайте-портфолио. Меня зовут Алескей. Живу в Минске. Занимаюсь HTML-версткой сайтов. У меня полностью кроссбраузерная, адаптивная и валидная верстка. Для обеспечения выполнения требований, предъявляемых к верстке сайта в процессе работы над проектом я использую сборщик проектов Gulp для автоматизации процесса верстки, препроцессоры Less/Sass для ускоренной стилизации сайта и более гибкого кода, шаблонизатор Pug, Pixel Perfect для верстки, совпадающей с предоставленным макетом «пиксель в пиксель», БЭМ, Bootstrap, Smartgrid и media-запросы для адаптивной верстки сайта. Динамика сайта организуется собственным jQuery кодом или настроенными плагинами. В конце работы осуществляется проверка отображения верстки в различных браузерах на разных устройствах, код проверяется валидатором на соответствие стандартам и устраняются выявленные ошибки.</p>
+                <div class="block">
+                    <div class="block__i">
+                        <h1 class="block__title">Профессиональная верстка сайтов</h1>
+                        <p class="block__description">Привет! Меня зовут <span>Кашников Алексей</span></p>
+                        <p class="block__text">И я HTML-верстальщик сайтов</p>
+                        <a class="block__a" href="#C4">Связаться со мной &rarr;</a>
+                    </div>
+                    <div class="block__img">
+                        <img src="./assets/imgs/img15.png" alt="Фото">
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="block block__bg">
+        <section class="section-me">
             <div class="container">
-                <h1 class="block__title">Мои навыки:</h1>
-                <ul class="skills">
-                    <li>HTML/HTML5</li>
-                    <li>CSS/CSS3</li>
-                    <li>Gulp</li>
-                    <li>Figma</li>
-                    <li>pug/SCSS</li>
-                    <li>БЭМ</li>
-                </ul>
+                <h2 class="me" id="C1">Обо мне</h2>
+                <div class="me__block">
+                    <div class="me__i">
+                        <p class="me__doing">Делаю любую верстку сайта в том числе кроссбраузерную, адаптивную и валидную. В процессе работы над проектом я использую:</p>
+                        <ol class="me__doing-ol">
+                            <li class="me__doing-li first">Для автоматизации процесса верстки - сборщик проектов Gulp;</li>
+                            <li class="me__doing-li second">Для верстки, совпадающей с предоставленным макетом «пиксель в пиксель» - шаблонизатор Pug, Pixel Perfect;</li>
+                            <li class="me__doing-li third">Для адаптивной верстки сайта - БЭМ, Bootstrap, Smartgrid и media-запросы.</li>
+                        </ol>
+                    </div>
+                    <div class="end">
+                        <div class="end__block">
+                            <p class="end__text">В конце работы провожу проверка отображения верстки в различных браузерах и на разных устройствах, проверяю код валидатором на соответствие стандартам и устраняю выявленные ошибки.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="block">
+        <section class="section-skills">
             <div class="container">
-                <h2 class="block__title">Мои работы:</h2>
-                <div class="works">
-                    <a href="https://7lesha.github.io/pr-aleksei/dist/index.html" class="work" target="_blank">
-                        <article class="work__iner">
-                            <figure class="work__img">
-                                <img src="./assets/imgs/Mad_Hatters.JPG" alt="Mad Hatters">
-                                <figcaption>
-                                    <span>Mad Hatters</span>
-                                </figcaption>
-                            </figure>
-                            <p class="work__teach">Технологии: HTML/CSS</p>
-                            <p class="work__time">Время: 12 часов</p>
-                        </article>
-                    </a>
-                    <a href="https://7lesha.github.io/pr_aleksei/dist/index.html" class="work" target="_blank">
-                        <article class="work__iner">
-                            <figure class="work__img">
-                                <img src="./assets/imgs/Boom_Market.JPG" alt="Boom Market">
-                                <figcaption>
-                                    <span>Boom Market</span>
-                                </figcaption>
-                            </figure>
-                            <p class="work__teach">Технологии: HTML/CSS</p>
-                            <p class="work__time">Время: 12 часов</p>
-                        </article>
-                    </a>
-                    <a href="https://7lesha.github.io/pr3_aleksei/dist/index.html" class="work" target="_blank">
-                        <article class="work__iner">
-                            <figure class="work__img">
-                                <img src="./assets/imgs/T.Pass.JPG" alt="T.Pass">
-                                <figcaption>
-                                    <span>T.Pass</span>
-                                </figcaption>
-                            </figure>
-                            <p class="work__teach">Технологии: HTML/CSS</p>
-                            <p class="work__time">Время: 12 часов</p>
-                        </article>
-                    </a>
-                    <a href="https://7lesha.github.io/pr2_aleksei/" class="work" target="_blank">
-                        <article class="work__iner">
-                            <figure class="work__img">
-                                <img src="./assets/imgs/Rayal_Park.JPG" alt="Rayal_Park">
-                                <figcaption>
-                                    <span>Rayal Park</span>
-                                </figcaption>
-                            </figure>
-                            <p class="work__teach">Технологии: HTML/CSS</p>
-                            <p class="work__time">Время: 12 часов</p>
-                        </article>
-                    </a>
-                    <a href="https://7lesha.github.io/pr1_aleksei/" class="work" target="_blank">
-                        <article class="work__iner">
-                            <figure class="work__img">
-                                <img src="./assets/imgs/Brella.JPG" alt="Brella">
-                                <figcaption>
-                                    <span>Brella</span>
-                                </figcaption>
-                            </figure>
-                            <p class="work__teach">Технологии: HTML/CSS</p>
-                            <p class="work__time">Время: 12 часов</p>
-                        </article>
-                    </a>
+                <h2 class="skills" id="C2">Навыки</h2>
+                <div class="skills__row">
+                    <div class="skills__block">
+                        <div>
+                            <div class="skills__blocks">
+                                <img src="./assets/imgs/img1.png" alt="картинка">
+                                <p class="skills__text"> HTML/HTML5</p>
+                            </div>
+                            <div class="skills__blocks">
+                                <img src="./assets/imgs/img2.png" alt="картинка">
+                                <p class="skills__text"> CSS/CSS3</p>
+                            </div>
+                            <div class="skills__blocks">
+                                <img src="./assets/imgs/img3.png" alt="картинка">
+                                <p class="skills__text"> Gulp</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="skills__blocks">
+                                <img src="./assets/imgs/img4.png" alt="картинка">
+                                <p class="skills__text"> Figma</p>
+                            </div>
+                            <div class="skills__blocks">
+                                <img src="./assets/imgs/img5.png" alt="картинка">
+                                <p class="skills__text"> Pug/SCSS</p>
+                            </div>
+                            <div class="skills__blocks">
+                                <img src="./assets/imgs/img6.png" alt="картинка">
+                                <p class="skills__text"> БЭМ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-works">
+            <div class="container">
+                <h2 class="works" id="C3">Портфолио</h2>
+                <div class="works__block">
+                    <div class="works__blocks">
+                        <p class="works__text">Технологии: HTML/CSS</p>
+                        <img src="./assets/imgs/img7.jpg" alt="картинка">
+                        <p class="works__time">Время: 8 часов</p>
+                        <a class="works__a" href="https://7lesha.github.io/pr-aleksei/dist/index.html" target="_blank">Посмотреть</a>
+                    </div>
+                    <div class="works__blocks">
+                        <p class="works__text">Технологии: HTML/CSS</p>
+                        <img src="./assets/imgs/img8.jpg" alt="картинка">
+                        <p class="works__time">Время: 8 часов</p>
+                        <a class="works__a" href="https://7lesha.github.io/pr_aleksei/dist/index.html" target="_blank">Посмотреть</a>
+                    </div>
+                    <div class="works__blocks">
+                        <p class="works__text">Технологии: HTML/CSS</p>
+                        <img src="./assets/imgs/img11.jpg" alt="картинка">
+                        <p class="works__time">Время: 8 часов</p>
+                        <a class="works__a" href="https://7lesha.github.io/pr3_aleksei/dist/index.html" target="_blank">Посмотреть</a>
+                    </div>
+                    <div class="works__blocks">
+                        <p class="works__text">Технологии: HTML/CSS</p>
+                        <img src="./assets/imgs/img10.jpg" alt="картинка">
+                        <p class="works__time">Время: 8 часов</p>
+                        <a class="works__a" href="https://7lesha.github.io/pr2_aleksei/" target="_blank">Посмотреть</a>
+                    </div>
+                    <div class="works__blocks">
+                        <p class="works__text">Технологии: HTML/CSS</p>
+                        <img src="./assets/imgs/img9.jpg" alt="картинка">
+                        <p class="works__time">Время: 8 часов</p>
+                        <a class="works__a" href="https://7lesha.github.io/pr1_aleksei/" target="_blank">Посмотреть</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-contacts">
+            <div class="container">
+                <h2 class="contacts__h" id="C4">Контакты</h2>
+                <div class="contacts">
+                    <div class="contacts__block">
+                        <img src="./assets/imgs/img12.svg" alt="картинка">
+                        <div class="contacts__blocks">
+                            <p class="contacts__title">Расположение</p>
+                            <p class="contacts__description">Беларусь, Минск</p>
+                        </div>
+                    </div>
+                    <div class="contacts__block">
+                        <img src="./assets/imgs/img13.svg" alt="картинка">
+                        <div class="contacts__blocks">
+                            <p class="contacts__title">Почта</p>
+                            <a class="contacts__a" href="mailto:kashnikov-lesha@mail.ru">kashnikov-lesha@mail.ru</a>
+                        </div>
+                    </div>
+                    <div class="contacts__block">
+                        <img src="./assets/imgs/img14.svg" alt="картинка">
+                        <div class="contacts__blocks">
+                            <p class="contacts__title">Телефон</p>
+                            <a class="contacts__a" href="tel:+37529343-99-48">+375 (29) 343-99-48</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="ul">
+                <li class="ul__li"><a class="ul__a" href="#C1">Обо мне</a></li> 
+                <li class="ul__li"><a class="ul__a" href="#C2">Навыки</a></li> 
+                <li class="ul__li"><a class="ul__a" href="#C3">Портфолио</a></li> 
+                <li class="ul__li"><a class="ul__a" href="#C4">Контакты</a></li> 
+            </ul>
+        </div>
+    </footer>
+    <article class="article">
+        <p class="article__text">Все права защищены. Дизайн сделан Кашниковой Анастасией</p>
+    </article>
 </body>
 </html>
