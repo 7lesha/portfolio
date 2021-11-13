@@ -20,7 +20,7 @@ html {
 }
 
 .header {
-    padding: 6rem 0 23rem;
+    padding: 6rem 0 15rem;
     position: relative;
 }
 
@@ -86,11 +86,15 @@ html {
 }
 
 .block__i {
-    width: 57%;
-    padding: 15rem 0;
+    text-align: center;
+    width: 100%;
+    /* width: 57%; */
+    /* padding: 15rem 0; */
 }
 
 .block__title {
+    margin-left: auto;
+    margin-right: auto;
     max-width: 68rem;
     margin-bottom: 4rem;
     font-weight: 500;
@@ -534,7 +538,7 @@ html {
 @media screen and (max-width:1300px) {
     .block__i {
         width: 100%;
-        padding: 0rem 0 15rem;
+        /* padding: 0rem 0 15rem; */
         text-align: center;
     }
 
